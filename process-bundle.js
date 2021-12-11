@@ -1,8 +1,8 @@
 println(pdfFile.getAbsolutePath()+
-","+bundle.id+","+
-bundle.identifier.value+","+
-accessCode+","+
-medication.code.coding[0].code+","+
-medication.code.text+","+
-coverage.payor[0].identifier.value+","+
+"\t"+bundle.id+"\t"+
+bundle.identifier.value+"\t"+
+accessCode+"\t"+
+medication.code.coding[0].code+"\t"+
+medication.code.text+"\t"+
+coverage.payor[0].identifier.value+"\t"+
 coverage.payor[0].display);
